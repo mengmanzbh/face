@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "FaceppAPI.h"
 #import "../APIKey+APISecret.h"
+#import "CompareViewController.h"
 
 @implementation AppDelegate
 
@@ -198,6 +199,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+//    CompareViewController *comVc = [[CompareViewController alloc]initWithNibName:@"CompareViewController" bundle:nil];
+//    self.window.rootViewController = comVc;
+
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

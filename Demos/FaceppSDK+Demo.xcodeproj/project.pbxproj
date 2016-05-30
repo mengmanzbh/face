@@ -633,7 +633,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -647,7 +648,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "08b23147-4831-4796-8a14-204e0fd9255c";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -660,15 +662,17 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "08b23147-4831-4796-8a14-204e0fd9255c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -682,8 +686,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceppDemo/FaceppSDK+Demo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "FaceppSDK+Demo";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "08b23147-4831-4796-8a14-204e0fd9255c";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -697,9 +702,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceppDemo/FaceppSDK+Demo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "FaceppSDK+Demo";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "08b23147-4831-4796-8a14-204e0fd9255c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "08b23147-4831-4796-8a14-204e0fd9255c";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -707,14 +713,16 @@
 		C7CE8D80166F4A25003E07C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "08b23147-4831-4796-8a14-204e0fd9255c";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -722,14 +730,16 @@
 		C7CE8D81166F4A25003E07C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "08b23147-4831-4796-8a14-204e0fd9255c";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};

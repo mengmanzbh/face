@@ -152,7 +152,6 @@
     
     FaceppResult *result = [[FaceppAPI detection] detectWithURL:nil orImageData:UIImageJPEGRepresentation(image, 0.5) mode:FaceppDetectionModeNormal attribute:FaceppDetectionAttributeNone];
     
-    [[FaceppAPI recognition]compareWithFaceId1:@"" andId2:@"" async:YES];
     if (result.success) {
         double image_width = [[result content][@"img_width"] doubleValue] *0.01f;
         double image_height = [[result content][@"img_height"] doubleValue] * 0.01f;
