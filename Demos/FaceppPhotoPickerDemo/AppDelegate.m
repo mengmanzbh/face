@@ -10,6 +10,7 @@
 
 #import "ViewController.h"
 #import "CompareViewController.h"
+#import <BmobSDK/Bmob.h>
 
 @implementation AppDelegate
 
@@ -22,6 +23,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Bmob registerWithAppKey:@"3b561ae826eec04f6829c0a08050ac40"];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
 //    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];

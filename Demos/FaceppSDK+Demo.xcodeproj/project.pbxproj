@@ -87,6 +87,16 @@
 		CD8FCE931CF8896000A6F20B /* GKResizeableCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FCE8D1CF8896000A6F20B /* GKResizeableCropOverlayView.m */; };
 		CD8FCE961CF88CCB00A6F20B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FCE951CF88CCB00A6F20B /* UIImage+Resize.m */; };
 		CD8FCE981CF89D1E00A6F20B /* 55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD8FCE971CF89D1E00A6F20B /* 55.jpg */; };
+		D5FD0AB21CFC39F100491375 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AB11CFC39F100491375 /* BmobSDK.framework */; };
+		D5FD0AB41CFC3A2D00491375 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AB31CFC3A2D00491375 /* CoreLocation.framework */; };
+		D5FD0AB61CFC3A3700491375 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AB51CFC3A3700491375 /* Security.framework */; };
+		D5FD0AB81CFC3A4A00491375 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AB71CFC3A4A00491375 /* MobileCoreServices.framework */; };
+		D5FD0ABA1CFC3A5400491375 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AB91CFC3A5400491375 /* CFNetwork.framework */; };
+		D5FD0ABC1CFC3A5D00491375 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0ABB1CFC3A5D00491375 /* CoreTelephony.framework */; };
+		D5FD0ABE1CFC3A6600491375 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0ABD1CFC3A6600491375 /* SystemConfiguration.framework */; };
+		D5FD0AC01CFC3A7500491375 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0ABF1CFC3A7500491375 /* libz.1.2.5.tbd */; };
+		D5FD0AC21CFC3A7D00491375 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AC11CFC3A7D00491375 /* libicucore.tbd */; };
+		D5FD0AC41CFC3A8600491375 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FD0AC31CFC3A8600491375 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -185,6 +195,16 @@
 		CD8FCE941CF88CCB00A6F20B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		CD8FCE951CF88CCB00A6F20B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		CD8FCE971CF89D1E00A6F20B /* 55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55.jpg; sourceTree = "<group>"; };
+		D5FD0AB11CFC39F100491375 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		D5FD0AB31CFC3A2D00491375 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D5FD0AB51CFC3A3700491375 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D5FD0AB71CFC3A4A00491375 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D5FD0AB91CFC3A5400491375 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D5FD0ABB1CFC3A5D00491375 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D5FD0ABD1CFC3A6600491375 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D5FD0ABF1CFC3A7500491375 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		D5FD0AC11CFC3A7D00491375 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		D5FD0AC31CFC3A8600491375 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,9 +222,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FD0AC41CFC3A8600491375 /* libsqlite3.tbd in Frameworks */,
+				D5FD0AC21CFC3A7D00491375 /* libicucore.tbd in Frameworks */,
+				D5FD0AC01CFC3A7500491375 /* libz.1.2.5.tbd in Frameworks */,
+				D5FD0ABE1CFC3A6600491375 /* SystemConfiguration.framework in Frameworks */,
+				D5FD0ABC1CFC3A5D00491375 /* CoreTelephony.framework in Frameworks */,
+				D5FD0ABA1CFC3A5400491375 /* CFNetwork.framework in Frameworks */,
+				D5FD0AB81CFC3A4A00491375 /* MobileCoreServices.framework in Frameworks */,
+				C7CE8D66166F4A25003E07C5 /* CoreGraphics.framework in Frameworks */,
+				D5FD0AB61CFC3A3700491375 /* Security.framework in Frameworks */,
+				D5FD0AB41CFC3A2D00491375 /* CoreLocation.framework in Frameworks */,
 				C7CE8D64166F4A25003E07C5 /* UIKit.framework in Frameworks */,
 				C7CE8D65166F4A25003E07C5 /* Foundation.framework in Frameworks */,
-				C7CE8D66166F4A25003E07C5 /* CoreGraphics.framework in Frameworks */,
+				D5FD0AB21CFC39F100491375 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +244,7 @@
 		C722221D1666371700D74087 = {
 			isa = PBXGroup;
 			children = (
+				D5FD0AB11CFC39F100491375 /* BmobSDK.framework */,
 				CD8FCE971CF89D1E00A6F20B /* 55.jpg */,
 				CD8FCE811CF8896000A6F20B /* GKClasses */,
 				C7BCE29B16709FC300DE14F8 /* icon@2x.png */,
@@ -238,6 +269,15 @@
 		C722222B1666371700D74087 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5FD0AC31CFC3A8600491375 /* libsqlite3.tbd */,
+				D5FD0AC11CFC3A7D00491375 /* libicucore.tbd */,
+				D5FD0ABF1CFC3A7500491375 /* libz.1.2.5.tbd */,
+				D5FD0ABD1CFC3A6600491375 /* SystemConfiguration.framework */,
+				D5FD0ABB1CFC3A5D00491375 /* CoreTelephony.framework */,
+				D5FD0AB91CFC3A5400491375 /* CFNetwork.framework */,
+				D5FD0AB71CFC3A4A00491375 /* MobileCoreServices.framework */,
+				D5FD0AB51CFC3A3700491375 /* Security.framework */,
+				D5FD0AB31CFC3A2D00491375 /* CoreLocation.framework */,
 				C722222C1666371700D74087 /* UIKit.framework */,
 				C722222E1666371700D74087 /* Foundation.framework */,
 				C72222301666371700D74087 /* CoreGraphics.framework */,
@@ -716,6 +756,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
@@ -733,6 +777,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wenbin Wang (3V6DGQV6ZF)";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";

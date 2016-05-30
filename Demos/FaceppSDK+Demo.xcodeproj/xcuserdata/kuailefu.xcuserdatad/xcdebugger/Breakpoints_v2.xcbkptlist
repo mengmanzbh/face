@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FaceppPhotoPickerDemo/CompareViewController.m"
-            timestampString = "486289086.496587"
+            timestampString = "486293056.491644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "-compare:"
             landmarkType = "5">
          </BreakpointContent>

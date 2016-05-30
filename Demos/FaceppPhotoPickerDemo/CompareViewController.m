@@ -10,6 +10,7 @@
 #import "GKImagePicker.h"
 #import "UIImage+Resize.h"
 #import "../APIKey+APISecret.h"
+#import <BmobSDK/Bmob.h>
 
 
 @interface CompareViewController ()<GKImagePickerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -112,6 +113,26 @@
     
     // turn on the debug mode
     [FaceppAPI setDebugMode:TRUE];
+    
+    
+//    NSBundle    *bundle = [NSBundle mainBundle];
+//    NSString *fileString = [bundle pathForResource:@"55" ofType:@"jpg"];
+//    
+//    BmobObject *obj = [[BmobObject alloc] initWithClassName:@"face"];
+//    BmobFile *file1 = [[BmobFile alloc] initWithFilePath:fileString];
+//    [file1 saveInBackground:^(BOOL isSuccessful, NSError *error) {
+//        //如果文件保存成功，则把文件添加到filetype列
+//        if (isSuccessful) {
+//            [obj setObject:file1  forKey:@"face"];
+//            [obj saveInBackground];
+//            //打印file文件的url地址
+//            NSLog(@"file1 url %@",file1.url);
+//        }else{
+//            //进行处理
+//        }
+//    }];
+
+    
 }
 # pragma mark GKImagePicker Delegate Methods
 
